@@ -1,3 +1,4 @@
 #!/bin/bash
-sudo ls -a
+whoami
+date
 echo "I am the client" > client
