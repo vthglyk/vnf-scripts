@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-echo "The server_private is $server_public" > server_public_ip
-screen -d -m -S client iperf -c $server_public -t 480
+echo "The server_private is $server_private" > server_private_ip
+screen -d -m -S client iperf -c $server_private -t 480
